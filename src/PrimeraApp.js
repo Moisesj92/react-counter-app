@@ -7,10 +7,6 @@ import PropTypes from 'prop-types';
 //const PrimeraApp = ({ saludo = 'Hola Mundo' }) => {
 const PrimeraApp = ({ saludo, subtitulo }) => {
 
-
-    //Obligar a que vengan las props que necesito
-
-
     return (
         <>
             <h1> { saludo } </h1>
@@ -26,7 +22,6 @@ PrimeraApp.propTypes = {
 }
 
 PrimeraApp.defaultProps = {
-    saludo: 'hola mundo',
     subtitulo: 'soy un subtitulo 1234'
 }
 
