@@ -8,9 +8,7 @@ exports[`Prueba en <PrimeraApp /> Debe mostrar <PrimeraApp /> correctamente 1`] 
      
   </h1>
   <p>
-     
     soy un subtitulo 1234
-     
   </p>
 </Fragment>
 `;

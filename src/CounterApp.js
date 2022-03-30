@@ -29,7 +29,7 @@ const CounterApp = ({ value }) => {
     return (
         <>
             <h1>CounterApp</h1>
-            <h2> {counter} </h2>
+            <h2>{counter}</h2>
 
 
             <button onClick={ handleAdd }> +1 </button>
@@ -47,7 +47,7 @@ CounterApp.propTypes = {
 };
 
 CounterApp.defaultProps = {
-    value: 0
+    value: 10
 }
 
 
